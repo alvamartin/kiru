@@ -1,0 +1,24 @@
+#define rcBtUnir 1001
+#define rcProgreso 1002
+#define txtNumPartes 1006
+#define IDC_STC4 1007
+#define IDC_STC5 1008
+#define IDC_STC6 1003
+#define IDC_STC7 1004
+#define IDC_STC2 1005
+une DIALOGEX 6,6,254,75
+CAPTION "kiru! 1.0.1"
+FONT 8,"MS Sans Serif"
+CLASS "DLGCLASS"
+STYLE 0x10C80800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "generar",rcBtUnir,"Button",0x50010000,200,38,50,15,0x00000000
+  CONTROL "",rcProgreso,"msctls_progress32",0x50000001,4,38,196,15,0x00000000
+  CONTROL "000",txtNumPartes,"Static",0x50000001,140,9,14,9,0x00000000
+  CONTROL "Este fichero es el último de un conjunto de",IDC_STC4,"Static",0x50000000,6,9,134,8,0x00000000
+  CONTROL "Para volver a unirlos y obtener el fichero  original  asegúrate de que todas las partes residen en el mismo directorio y a continuación pulsa el botón generar.",IDC_STC5,"Static",0x50000000,6,18,242,19,0x00000000
+  CONTROL "kiru! (c) alvaro martín 2004",IDC_STC6,"Static",0x58000000,6,55,84,9,0x00000000
+  CONTROL "última versión en www.solomartin.com",IDC_STC7,"Static",0x58000000,126,55,122,11,0x00000000
+  CONTROL "ficheros generados por kiru!",IDC_STC2,"Static",0x50000000,156,9,90,8,0x00000000
+END

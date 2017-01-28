@@ -1,0 +1,4 @@
+ICONO					ICON   DISCARDABLE kiru.ico
+#include <Res\kiruDlg.rc>
+#include <Res\acercaDlg.rc>
+#include "Res/kiruVer.rc"

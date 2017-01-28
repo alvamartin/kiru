@@ -1,0 +1,50 @@
+#define txtFicheroOrigen 1001
+#define txtFicheroDestino 1002
+#define btFicheroOrigen 1003
+#define btFicheroDestino 1004
+#define btCortar 1006
+#define chkDisk 1008
+#define txtNumPartes 1013
+#define txtTamPartes 1014
+#define barraP 1019
+#define chkExe 1007
+#define btInfo 1020
+#define barraTamanio 1005
+#define porcentaje 1021
+#define IDC_STC1 1023
+#define txtTamOrigen2 1012
+#define txtTamOrigen 1011
+#define IDC_STC23 1025
+#define IDC_STC9 1028
+#define txtTamUltima 1030
+#define IDC_STC14 1031
+#define IDC_STC15 1032
+dlgKiru DIALOGEX 6,5,326,99
+CAPTION "kiru! 1.0.1"
+FONT 8,"Arial"
+CLASS "DLGCLASS"
+STYLE 0x10CA0800
+EXSTYLE 0x00000010
+BEGIN
+  CONTROL "fichero a cortar...",btFicheroOrigen,"Button",0x50010000,8,13,64,12,0x00020000
+  CONTROL "",txtFicheroOrigen,"Edit",0x58010080,80,13,158,12,0x00000200
+  CONTROL "guardar como...",btFicheroDestino,"Button",0x50010000,8,27,64,12,0x00020000
+  CONTROL "",txtFicheroDestino,"Edit",0x58010080,80,27,158,12,0x00000200
+  CONTROL "",txtTamPartes,"Edit",0x58010081,244,27,46,12,0x00000200
+  CONTROL "",txtNumPartes,"Edit",0x58010001,245,56,46,10,0x00000200
+  CONTROL "tamaño disquete",chkDisk,"Button",0x58018003,81,54,66,9,0x00000000
+  CONTROL "crear ejecutable",chkExe,"Button",0x58018003,81,65,66,9,0x00000000
+  CONTROL "cortar",btCortar,"Button",0x50010000,244,80,48,12,0x00020000
+  CONTROL "IDC_BTN",btInfo,"Button",0x50018040,22,51,32,22,0x00000000
+  CONTROL "?",txtTamOrigen,"Static",0x58000001,244,15,46,9,0x00000000
+  CONTROL "bytes",txtTamOrigen2,"Static",0x58000000,296,15,18,9,0x00000000
+  CONTROL "",barraP,"msctls_progress32",0x50000001,10,82,228,9,0x00000000
+  CONTROL "",barraTamanio,"msctls_trackbar32",0x58000021,241,40,52,9,0x00000000
+  CONTROL "100",porcentaje,"Static",0x50000001,296,38,14,9,0x00000000
+  CONTROL "%",IDC_STC1,"Static",0x50000001,310,38,8,9,0x00000000
+  CONTROL "número de partes",IDC_STC23,"Static",0x58000000,177,57,59,9,0x00000000
+  CONTROL "tamaño última parte",IDC_STC9,"Static",0x58000000,90,41,64,9,0x00000000
+  CONTROL "?",txtTamUltima,"Static",0x58000002,154,41,47,7,0x00000000
+  CONTROL "bytes",IDC_STC14,"Static",0x58000000,204,41,19,9,0x00000000
+  CONTROL "bytes",IDC_STC15,"Static",0x58000000,296,27,18,9,0x00000000
+END

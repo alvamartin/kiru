@@ -1,0 +1,4 @@
+ICONO					ICON   DISCARDABLE kiru.ico
+#include <Res\uneDlg.rc>
+#include "Res/uneVer.rc"
+

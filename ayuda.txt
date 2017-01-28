@@ -1,0 +1,28 @@
+18.06.2003
+
+es un programa para cortar ficheros en partes más pequeñas para así facilitar su envío por correo electrónico
+o el transporte en disquetes u otras unidades de almacenamiento removibles
+
+
+características principales:
+
+tamaño mínimo
+	sus 10 Kbytes lo convierten en el programa más 'ligero' de este tipo de los que puedes encontrar que
+	implementen la misma funcionalidad
+
+no necesita instalación por lo que no satura el registro de windows. se trata de un único ejecutable. 
+ver más adelante las instrucciones para añadir a la shell de windows
+
+información del tamaño real de cada una de las partes en bytes
+	normalmente el tamaño de la última parte diferirá del de las anteriores debido a que la división no será
+	entera (por ejemplo si el fichero es de 10 bytes y queremos 3 partes las dos primeras serán de 4 bytes y
+	la última de 2 bytes)
+
+tres opciones para unir las partes
+	se puede seleccionar crear un fichero .bat adicional encargado de la tarea
+	o convertir una de las partes en un fichero ejecutable
+	o simplemente unirlas a mano desde una consola de msdos (se explica en otra sección)
+
+máxima personalización al permitir seleccionar el número de partes a crear o el tamaño en bytes de las mismas
+
+drag'n drop  arrastra directamente el fichero que quieres cortar a la ventana de kiru

@@ -1,0 +1,26 @@
+#define VERINF1 1
+VERINF1 VERSIONINFO
+FILEVERSION 1,0,4
+PRODUCTVERSION 1,0,4
+FILEOS 0x00000004
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040A04B0"
+    BEGIN
+      VALUE "CompanyName", "alvaro martin\0"
+      VALUE "FileVersion", "1.0.4\0"
+      VALUE "FileDescription", "kiru!\0"
+      VALUE "InternalName", "kiru!\0"
+      VALUE "LegalCopyright", "alvaro martín\0"
+      VALUE "OriginalFilename", "kiru!.exe\0"
+      VALUE "ProductName", "kiru!\0"
+      VALUE "ProductVersion", "1.0.4\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x040A, 0x04B0
+  END
+END
