@@ -8,5 +8,4 @@ The code is a mess. You should be able to compile with MASM32. Check good old [I
 
 The whole thing compiled is only 10kb.
 
-
-
+<img width="489" alt="screen shot 2017-01-28 at 00 17 55" src="https://cloud.githubusercontent.com/assets/10778057/22392280/5457bb0e-e4ef-11e6-9c33-c5a574ed6737.png">
